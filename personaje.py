@@ -1,10 +1,14 @@
 
 class Personaje:
+    
+    
+    # Constructor
     def __init__(self, nombre, vida, fuerza):
         self.nombre = nombre
         self.vida = vida
         self.fuerza = fuerza
 
+    # Métodos
     def atacar(self, objetivo):
         if isinstance(objetivo, Personaje):
             print(f"{self.nombre} ataca a {objetivo.nombre}!")

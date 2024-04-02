@@ -1,7 +1,7 @@
 import pygame
 import sys
 
-from basesita_personajes import list_personajes
+from basecita_personajes import list_personajes
 
 # Inicializar Pygame
 pygame.init()
