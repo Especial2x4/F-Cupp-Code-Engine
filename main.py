@@ -41,14 +41,14 @@ while running:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             running = False
-        elif event.type == pygame.KEYDOWN:
-            if event.key == pygame.K_UP:
-                selected_option = (selected_option - 1) % len(menu_options)
-            elif event.key == pygame.K_DOWN:
-                selected_option = (selected_option + 1) % len(menu_options)
-            elif event.key == pygame.K_RETURN:
-                print("Selected:", menu_options[selected_option])
-                # Aquí puedes añadir la lógica para lo que quieras hacer con la opción seleccionada
+			
+				#if event.type == pygame.KEYDOWN:
+					#pass
+
+		
+		
+			
+	
 
     # Dibujar el menú
     draw_menu()
